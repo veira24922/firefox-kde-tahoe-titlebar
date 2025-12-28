@@ -2,7 +2,7 @@
 This is just a tiny repo that replaces the titlebar buttons with the MacTahoe titlebar. (**CREDITS TO VINCELIUICE FOR THE KVANTUM SVG ASSET**)
 
 # Installation
-> NOTE: This may not be fuly accurate. Make sure that your titlebar buttons is on the left side (Like the macOS one).
+> NOTE: This may not be fully accurate. Make sure that your titlebar buttons is on the left side (Like the macOS one).
 1. Make sure you have Firefox installed on KDE (Fedora, Neon, etc.), then go to `about:config` and **Accept the Risk**. Make sure `toolkit.legacyUserProfileCustomizations.stylesheets` is set to `true`.
 2. After that, download the source code, un-zip it.
 3. Go to `about:support` and "click Open Folder" (Which is next to the Profile Folder).
