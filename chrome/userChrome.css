@@ -38,16 +38,16 @@ toolbarbutton.titlebar-min image.toolbarbutton-icon {
     background-size: 12px 14px !important;
 }
 toolbarbutton.titlebar-close image.toolbarbutton-icon:-moz-window-inactive {
-    background-color: #5d5d5d;
+    background-color: #5d5d5d !important;
 }
 toolbarbutton.titlebar-max image.toolbarbutton-icon:-moz-window-inactive {
-    background-color: #5d5d5d;
+    background-color: #5d5d5d !important;
 }
 toolbarbutton.titlebar-restore image.toolbarbutton-icon:-moz-window-inactive {
-    background-color: #5d5d5d;
+    background-color: #5d5d5d !important;
 }
 toolbarbutton.titlebar-min image.toolbarbutton-icon:-moz-window-inactive {
-    background-color: #5d5d5d;
+    background-color: #5d5d5d !important;
 }
 
 toolbarbutton.titlebar-close:active::after,
