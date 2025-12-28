@@ -1,0 +1,78 @@
+toolbarbutton.titlebar-close,
+toolbarbutton.titlebar-min,
+toolbarbutton.titlebar-max,
+toolbarbutton.titlebar-restore {
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+    position: relative;
+}
+toolbarbutton.titlebar-close {
+    margin-left: 10px !important;
+}
+toolbarbutton.titlebar-close image,
+toolbarbutton.titlebar-min image,
+toolbarbutton.titlebar-restore image,
+toolbarbutton.titlebar-max image {
+    border-radius: 100vw;
+    width: 14px !important;
+    height: 14px !important;
+}
+toolbarbutton.titlebar-close image.toolbarbutton-icon {
+    background-color: #e9524a !important;
+    background-image: none !important;
+    background-size: 12px 12px !important;
+}
+toolbarbutton.titlebar-max image.toolbarbutton-icon {
+    background-color: #59c837 !important;
+    background-image: none !important;
+    background-size: 12px 12px !important;
+}
+toolbarbutton.titlebar-restore image.toolbarbutton-icon {
+    background-color: #59c837 !important;
+    background-image: none !important;
+    background-size: 12px 12px !important;
+}
+toolbarbutton.titlebar-min image.toolbarbutton-icon {
+    background-color: #f1ae1b !important;
+    background-image: none !important;
+    background-size: 12px 14px !important;
+}
+toolbarbutton.titlebar-close image.toolbarbutton-icon:-moz-window-inactive {
+    background-color: #5d5d5d;
+}
+toolbarbutton.titlebar-max image.toolbarbutton-icon:-moz-window-inactive {
+    background-color: #5d5d5d;
+}
+toolbarbutton.titlebar-restore image.toolbarbutton-icon:-moz-window-inactive {
+    background-color: #5d5d5d;
+}
+toolbarbutton.titlebar-min image.toolbarbutton-icon:-moz-window-inactive {
+    background-color: #5d5d5d;
+}
+
+toolbarbutton.titlebar-close:active::after,
+toolbarbutton.titlebar-min:active::after,
+toolbarbutton.titlebar-max:active::after,
+toolbarbutton.titlebar-restore:active::after {
+    content: "";
+    position: absolute;
+    top: calc(50% - 7px);
+    left: calc(50% - 7px);
+    width: 14px;
+    height: 14px;
+    background-image: url("./tahoe-theme/tahoe-pressed.png") !important;
+    background-size: 14px 14px;
+}
+toolbarbutton.titlebar-close:hover image.toolbarbutton-icon {
+    background-image: url("./tahoe-theme/tahoe-close.png") !important;
+}
+toolbarbutton.titlebar-max:hover image.toolbarbutton-icon {
+    background-image: url("./tahoe-theme/tahoe-max.png") !important;
+}
+toolbarbutton.titlebar-min:hover image.toolbarbutton-icon {
+    background-image: url("./tahoe-theme/tahoe-min.png") !important;
+}
+
+toolbarbutton.titlebar-restore:hover image.toolbarbutton-icon {
+    background-image: url("./tahoe-theme/tahoe-restore.png") !important;
+}
