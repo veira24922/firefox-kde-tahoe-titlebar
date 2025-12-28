@@ -1,5 +1,5 @@
 # Firefox KDE Tahoe Titlebar
-This is just a small repo that replaces the titlebar buttons (Close, Maximize/Restore/Minimize) with the MacTahoe one (**CREDITS TO VINCELIUICE FOR THE KVANTUM ASSETS**).
+This is just a small repo that replaces the titlebar buttons (Close, Maximize/Restore and Minimize) with the MacTahoe one (**CREDITS TO VINCELIUICE FOR THE KVANTUM ASSETS**).
 
 # Installation
 > NOTE: This may not be fully accurate. Make sure that your titlebar buttons is on the left side (Like the macOS one).
